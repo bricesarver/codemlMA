@@ -29,7 +29,6 @@ args = parser.parse_args()
 print "-----------------codemlMA.py-----------------"
 print "Model averaging of selection models in codeml"
 print "-------------Brice A. J. Sarver--------------"
-print "----------------Aug 30th, 2013---------------"
 print "------------------Version 1.2----------------\n\n\n"
 
 print "Parsing:", args.filename, "Writing output to:", args.outfile
@@ -41,7 +40,7 @@ BIC = []
 MA = []
 posterior = []
 
-print "Lists initialized; beginning to parse...\n"
+print "Beginning parsing...\n"
 
 resultsf = open(args.filename)
 try:
